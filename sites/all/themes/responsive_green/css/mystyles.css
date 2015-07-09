@@ -1,0 +1,11 @@
+.views-row {
+	width: 200px;
+	float: left;
+	border: #666 solid 1px;
+	margin: 5px;
+}
+
+.views-row img {
+	padding: 0px !important;
+	border: none !important;
+}

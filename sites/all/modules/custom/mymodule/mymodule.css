@@ -1,0 +1,5 @@
+.my-module h2 {
+	color: #003471;
+	padding: 20px !important;
+	border: red solid 1px !important;
+}

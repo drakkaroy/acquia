@@ -1,0 +1,12 @@
+name = mymodule
+description = test module
+package = public-action
+version = VERSION
+core = 7.x
+files[] = mymodule.module
+; Information added by drupal.org packaging script on 2015-07-10
+version = "1.0"
+project = "acquia"
+
+
+stylesheets[all][] = mymodule.css
