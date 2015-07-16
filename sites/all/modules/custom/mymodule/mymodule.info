@@ -10,3 +10,4 @@ project = "acquia"
 
 
 stylesheets[all][] = mymodule.css
+scripts[] = mymodule.js
