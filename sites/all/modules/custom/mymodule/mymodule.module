@@ -14,6 +14,22 @@ function mymodule_menu() {
     return $items;
 }
 
+function mymodule_js_alter(&$javascript) {
+    global $user;
+    global $base_url;
+    global $databases;
+    // print '<pre>';
+    // print_r($javascript);
+    // exit();
+    $mymodule_settings = array(
+        'test' => 'this is a setting test',
+        'user' => $user,
+        'base_url' => $base_url,
+        'database' => $databases
+    );
+    drupal_add_js(array('mymodule' => $mymodule_settings), 'setting');
+}
+
 
 function say_hello_world() {
     $vars = array();
