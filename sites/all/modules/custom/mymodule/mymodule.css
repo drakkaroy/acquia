@@ -3,3 +3,6 @@
 	padding: 20px !important;
 	border: red solid 1px !important;
 }
+li{
+	list-style: none;
+}
